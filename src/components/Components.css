@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  body {
+    background-image: linear-gradient(to right, #04619f, #000000);
+  }
+  .white {
+    width: 4rem;
+    height: 4rem;
+    background-color: while;
+    border: 0.5px white solid;
+  }
+  
+  .rat {
+    padding: 10px;
+    background-image: url("rat.png");
+    background-size: cover;
+  }
+  .des {
+    background-image: url("cheess.png");
+    background-size: cover;
+  }
+  
+  .des {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+  }
+  
+  .red {
+    width: 4rem;
+    height: 4rem;
+    /* background-color: #990000; */
+    background-image: url("cat.png");
+    background-size: cover;
+    border: 0.5px white solid;
+  }
+  
+  .green {
+    width: 4rem;
+    height: 4rem;
+    background-color: #0ee232;
+    background-size: cover;
+    border: 0.5px white solid;
+  }
+  .container {
+    padding-top: 10px;
+  }
+  .solution-container {
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .problem-container {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+  .problem-setup {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .btn-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  button {
+    outline: none;
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+  }
+  
+  .container, h3{
+    color: whitesmoke;
+  }
